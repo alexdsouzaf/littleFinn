@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://gsvjxxb3rwyh"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_igx1e"]
+[ext_resource type="PackedScene" uid="uid://b3ah8j126umc4" path="res://finn.tscn" id="2_n37wi"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_igx1e")
+
+[node name="Corpo2D" parent="." instance=ExtResource("2_n37wi")]
+position = Vector2(798, 233)
